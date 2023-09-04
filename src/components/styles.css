@@ -1,0 +1,15 @@
+h3.text-xl.font-semibold.mb-2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .flex.number-btn.space-x-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 15px;
+  }
+
+  button.rounded.p-2.bg-gray-200.text-gray-700 {
+    margin: 10px 40px;
+  }
+}
